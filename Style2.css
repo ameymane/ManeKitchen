@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(50, 33%, 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 8rem;
+    color: #fff;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    text-shadow: 1px 1px black,
+            -2px 2px black,
+            -3px 3px black,
+            -4px 4px black ,
+            -5px 5px black,
+            -6px 6px black,
+            -7px 7px black,
+            -8px 8px black,
+            -9px 9px black,
+            -10px 10px black,
+            -12px 12px 25px rgb(0, 0, 0);     
+}
+
+a{
+    font-size: 3rem;
+    text-decoration: none;
+    background: rgb(170, 112, 3);
+    color: #fff;
+    padding: 0% 3% ;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    top: 12%;
+}
+.arrow{
+    height: 100px;
+    width: 1%;
+   
+    display:flex;
+    
+}
+.line {
+    position: absolute;
+    top: 52%;
+    height: 1%;
+    width: 30%;
+    background: #fff;
+}
+h2{
+    font-size: 4rem;
+    position: relative;
+    /* top: 1.5%; */
+    background: hsl(50, 33%, 25%);;
+    padding: 0 1%;
+    bottom: 25%;
+    color: #fff;
+}
